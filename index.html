@@ -264,7 +264,7 @@ const screenz = -50;  // POSITION ÉCRAN Z
 
 // --- Vidéo ---
 const screenVideo = document.createElement('video');
-screenVideo.src = "videos/video3d1.mp4";
+screenVideo.src = "video3d1.mp4";
 screenVideo.loop = true;
 screenVideo.muted = true;
 screenVideo.playsInline = true;
@@ -1846,22 +1846,22 @@ const menuData = [
 
 // --- Données des bulles ---
 const bubbleData = {
-  "MONTAGE": { text: "Montage et assemblage de postes informatiques et de composants matériels (PC fixes, périphériques, éléments réseau). Choix des composants adaptés à l’usage, souci de compatibilité et de fiabilité.", image: "images/hardware1.png" },
-  "INSTALLATION": { text: "Installation matérielle de postes de travail et équipements informatiques : mise en place physique, raccordement, vérification du bon fonctionnement et préparation à l’exploitation.", image: "images/hardware2.png" },
-  "REPARATION": { text: "Diagnostic et réparation de pannes matérielles de niveau N1/N2 : remplacement de composants, identification des défaillances courantes et remise en service rapide des équipements.", image: "images/hardware3.png" },
-  "DEPLOIMENT": { text: "Déploiement et mise en service de réseaux locaux : configuration de base des équipements (routeur, switch, postes), adressage IP, tests de connectivité et assistance aux utilisateurs. Intervention dans le cadre d’un support réseau N1/N2.", image: "images/network1.png" },
-  "SECURITE": { text: "Application des bonnes pratiques de sécurité informatique et réseau : gestion des accès, sécurisation des postes, sauvegardes, et sensibilisation aux risques courants en environnement professionnel.", image: "images/network2.png" },
+  "MONTAGE": { text: "Montage et assemblage de postes informatiques et de composants matériels (PC fixes, périphériques, éléments réseau). Choix des composants adaptés à l’usage, souci de compatibilité et de fiabilité.", image: "hardware1.png" },
+  "INSTALLATION": { text: "Installation matérielle de postes de travail et équipements informatiques : mise en place physique, raccordement, vérification du bon fonctionnement et préparation à l’exploitation.", image: "hardware2.png" },
+  "REPARATION": { text: "Diagnostic et réparation de pannes matérielles de niveau N1/N2 : remplacement de composants, identification des défaillances courantes et remise en service rapide des équipements.", image: "hardware3.png" },
+  "DEPLOIMENT": { text: "Déploiement et mise en service de réseaux locaux : configuration de base des équipements (routeur, switch, postes), adressage IP, tests de connectivité et assistance aux utilisateurs. Intervention dans le cadre d’un support réseau N1/N2.", image: "network1.png" },
+  "SECURITE": { text: "Application des bonnes pratiques de sécurité informatique et réseau : gestion des accès, sécurisation des postes, sauvegardes, et sensibilisation aux risques courants en environnement professionnel.", image: "network2.png" },
   "CERTIFICATIONS": { text:  `
       Certifications professionnelles obtenues avec la
       <a href="https://www.cisco.com" target="_blank" rel="noopener noreferrer">
         WebAcadémie CISCO
       </a>.
-    `, image: "images/network3.gif" },
-  "BLENDER": { text: "Création et manipulation de scènes 3D avec Blender : modélisation, optimisation et intégration orientées jeux vidéo et web.", image: "images/web1.gif" },
-  "3D WEB": { text: "Développement d’expériences 3D interactives pour le web, combinant performance, esthétique et interactivité, notamment via Three.js.", image: "images/web3d.png" },
+    `, image: "network3.gif" },
+  "BLENDER": { text: "Création et manipulation de scènes 3D avec Blender : modélisation, optimisation et intégration orientées jeux vidéo et web.", image: "web1.gif" },
+  "3D WEB": { text: "Développement d’expériences 3D interactives pour le web, combinant performance, esthétique et interactivité, notamment via Three.js.", image: "web3d.png" },
   "3D ASSETS": { text: `Création d’assets 3D optimisés pour jeux vidéo et partagés sur la plateforme <a href="https://steamcommunity.com/profiles/76561198331605302/" target="_blank" rel="noopener noreferrer">
         STEAM
-      </a>`, image: "images/assets.gif" },
+      </a>`, image: "assets.gif" },
   "BLENDER + PYTHON": { text: `
     <div class="youtube-wrapper">
         <iframe
@@ -1872,18 +1872,18 @@ const bubbleData = {
     </div>
     Mise en forme et visualisation de données techniques pour faciliter la compréhension et l'apprentissage. Voir le script Python sur <a href="https://github.com/AxeLibre/Compteur-Binaire-Hexa-pour-Blender" target="_blank" rel="noopener noreferrer">
         GitHub
-      </a>`, image: "images/none.png" },
-  "SOCIAL NETWORK ADV": { text: "Création de contenus publicitaires orientés esthétique et impact visuel pour les réseaux sociaux. Approche axée sur le message, le design et la mise en valeur des produits ou services, avec une compréhension des codes commerciaux des plateformes.", image: "images/none.png" },
-  "PYTHON": { text: "Développement d’outils et d’applications en Python, notamment pour l’automatisation, l’analyse réseau et la création d’interfaces graphiques.", image: "images/python.png" },
-  "JAVASCRIPT / THREEJS": { text: "Applications Web interactives avec JS et Three.js.", image: "images/js.png" },
-  "VBA": { text: "Automatisation de tâches et création d’outils personnalisés sous Excel pour gagner du temps et fiabiliser les processus.", image: "images/vba.png" },
-  "BATCH": { text: "Scripts batch pour l’automatisation système, le déploiement rapide et la maintenance en environnement Windows.", image: "images/batch.png" },
+      </a>`, image: "none.png" },
+  "SOCIAL NETWORK ADV": { text: "Création de contenus publicitaires orientés esthétique et impact visuel pour les réseaux sociaux. Approche axée sur le message, le design et la mise en valeur des produits ou services, avec une compréhension des codes commerciaux des plateformes.", image: "none.png" },
+  "PYTHON": { text: "Développement d’outils et d’applications en Python, notamment pour l’automatisation, l’analyse réseau et la création d’interfaces graphiques.", image: "python.png" },
+  "JAVASCRIPT / THREEJS": { text: "Applications Web interactives avec JS et Three.js.", image: "js.png" },
+  "VBA": { text: "Automatisation de tâches et création d’outils personnalisés sous Excel pour gagner du temps et fiabiliser les processus.", image: "vba.png" },
+  "BATCH": { text: "Scripts batch pour l’automatisation système, le déploiement rapide et la maintenance en environnement Windows.", image: "batch.png" },
   "CV": { text: `<a href="cv/CV_Axel_LASALVIA_2026.pdf" target="_blank" rel="noopener">
   Consultez mon CV en ligne
   </a><br>
-  Consultez mon CV sur Linkdeen.`, image: "images/cv.png" },
-  "CONTACT": { text: "Me contacter directement.", image: "images/contact.png" },
-  "A PROPOS DE CE SITE": { text: "Informations sur la création de ce site.", image: "images/info.png" }
+  Consultez mon CV sur Linkdeen.`, image: "cv.png" },
+  "CONTACT": { text: "Me contacter directement.", image: "contact.png" },
+  "A PROPOS DE CE SITE": { text: "Informations sur la création de ce site.", image: "info.png" }
 };
 
 // --- Création des menus et boutons ---
